@@ -159,7 +159,7 @@ const FileManager = () => {
     const [selectionMode, setSelectionMode] = useState(false);
 
     return (
-        <div className="min-h-screen bg-slate-100">
+        <div className="min-h-screen w-screen bg-slate-100">
             {/* HEADER */}
             <div className="sticky top-0 z-10 bg-white shadow-md p-4 flex flex-wrap gap-4 justify-between items-center">
                 <h1 className="text-2xl font-bold">
